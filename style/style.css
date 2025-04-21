@@ -1,0 +1,128 @@
+@font-face {
+  font-display: swap;
+  font-family: "Sofia Pro";
+  font-weight: 400;
+  src: url("../fonts/Sofia\ Pro\ Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Suisse Int'l";
+  font-weight: 400;
+  src: url("../fonts/suisse-intl-regular.woff2") format("woff2");
+}
+
+.header {
+  background-color: #f9f0e5;
+}
+
+.header-text {
+  font-family: "Suisse Int'l";
+  font-size: 11px;
+  text-align: center;
+  color: #565656;
+  line-height: 3.19;
+  letter-spacing: 0.88px;
+}
+
+.hero {
+  padding-top: 31px;
+  margin-bottom: -70px;
+}
+
+.hero-logo {
+  margin-bottom: 62px;
+}
+
+.hero-title {
+  font-size: 38px;
+  font-weight: 400;
+  color: #01005b;
+  line-height: 1.2;
+  letter-spacing: 1.52px;
+  max-width: 592px;
+}
+.hero-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.hero-item {
+  display: flex;
+  align-items: center;
+  column-gap: 14px;
+}
+
+.item-text {
+  color: #676869;
+  line-height: 1.5;
+  letter-spacing: 0.45px;
+}
+
+.hero-btn {
+  text-align: center;
+  font-family: "Suisse Int'l";
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #01005b;
+  padding: 16px 22px;
+  max-width: 356px;
+  border: none;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.hero-img {
+  position: absolute;
+  top: -110px;
+  right: 0;
+}
+
+.hero-comments {
+  margin-top: 46px;
+  border-radius: 8px;
+  padding: 16px;
+  width: 416px;
+  min-height: 172px;
+  font-family: "Suisse Int'l";
+  box-shadow: 0px 3px 10px 0px #00000014;
+  background-color: #fff;
+  color: #676869;
+}
+
+.hero-comments-top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.img-comments {
+  padding-right: 14px;
+}
+
+.user-name {
+  color: #676869;
+
+  font-family: "Sofia Pro";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.45px;
+  padding-right: 20px;
+}
+
+.icon-stars {
+  stroke: #ffb801;
+}
