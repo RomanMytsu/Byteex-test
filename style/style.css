@@ -203,3 +203,49 @@
   letter-spacing: 0.45px;
   margin: 0;
 }
+
+.about {
+  padding: 83px 0 56px 0;
+  background-color: #f0eeef;
+}
+
+.about-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 104px;
+}
+
+.about-title {
+  color: #2a2996;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 1.28px;
+  margin-bottom: 32px;
+}
+
+.about-text {
+  color: #6c6c6c;
+  line-height: 1.5;
+  letter-spacing: 0.45px;
+  margin-bottom: 30px;
+  max-width: 620px;
+  height: 440px;
+}
+
+.about-btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Suisse Int'l";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.54px;
+  border-radius: 5px;
+  background-color: #01005b;
+  border: none;
+  padding: 16px 99px 22px 66px;
+  cursor: pointer;
+  max-width: 356px;
+  
+}
