@@ -61,7 +61,6 @@
 }
 
 .item-text {
-  color: #676869;
   line-height: 1.5;
   letter-spacing: 0.45px;
 }
@@ -95,34 +94,112 @@
   padding: 16px;
   width: 416px;
   min-height: 172px;
-  font-family: "Suisse Int'l";
   box-shadow: 0px 3px 10px 0px #00000014;
   background-color: #fff;
-  color: #676869;
+  filter: drop-shadow(0px 3px 10px rgba(0, 0, 0, 0.08));
 }
 
 .hero-comments-top {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 12px;
-}
-
-.img-comments {
-  padding-right: 14px;
+  gap: 10px;
 }
 
 .user-name {
-  color: #676869;
-
-  font-family: "Sofia Pro";
   font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.45px;
-  padding-right: 20px;
 }
 
 .icon-stars {
-  stroke: #ffb801;
+  fill: #ffb801;
+}
+
+.comments-text {
+  color: #828282;
+  font-family: "Suisse Int'l";
+  font-size: 11px;
+  line-height: 1.8;
+  letter-spacing: 0.22px;
+}
+
+.bottom-text-comments {
+  font-family: "Suisse Int'l";
+  font-size: 12px;
+  line-height: 1.9;
+  letter-spacing: 0.48px;
+}
+
+.benefits {
+  padding: 78px 54px;
+  background: linear-gradient(
+    180deg,
+    #f9f0e5 0%,
+    rgba(249, 240, 229, 0.18) 43.05%,
+    rgba(249, 240, 229, 0) 100%
+  );
+}
+
+.benefits-text {
+  color: #868787;
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.15;
+  letter-spacing: 0.6px;
+}
+
+.benefits-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.benefits-title {
+  color: #01005b;
+  font-size: 32px;
+  line-height: 1.25;
+  letter-spacing: 1.28px;
+  margin-top: 114px;
+}
+
+.wrap-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 180px;
+  margin-top: 85px;
+}
+
+.wrap-list {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.wrap-item {
+  display: flex;
+  gap: 32px;
+}
+
+.wrap-text {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.wrap-title {
+  color: #01005b;
+  font-size: 22px;
+  line-height: 1.1;
+  letter-spacing: 0.88px;
+  margin: 0;
+}
+
+.wrap-sub-title {
+  color: #6c6c6c;
+  font-size: 15px;
+  line-height: 1.5;
+  letter-spacing: 0.45px;
+  margin: 0;
 }
