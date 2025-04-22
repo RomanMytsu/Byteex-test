@@ -514,3 +514,69 @@ details[open] > summary:after {
   letter-spacing: 0.42px;
   margin-top: -16px;
 }
+
+.final {
+  padding: 84px 0;
+}
+
+.final-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.final-title {
+  color: #01005b;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 1.28px;
+  margin-bottom: 26px;
+}
+
+.final-text {
+  text-align: center;
+  line-height: 1.4; /* 146.667% */
+  letter-spacing: 0.45px;
+  max-width: 587px;
+  margin-bottom: 52px;
+}
+
+.final-btn-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  margin-bottom: 24px;
+}
+
+.final-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
+
+.final-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.final-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -14px;
+  top: 10px;
+  height: 51px;
+  width: 1px;
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+.final-item-text {
+  font-size: 14px;
+  line-height: 1.4; /* 142.857% */
+  letter-spacing: 0.42px;
+  max-width: 130px;
+}
