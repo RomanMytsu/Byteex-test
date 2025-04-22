@@ -458,3 +458,59 @@ details[open] > summary:after {
   right: 0;
   top: -6px;
 }
+
+.info {
+  padding: 39px 0 42px 0;
+  background-color: #f0eeef;
+}
+
+.info-title {
+  color: #15005b;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.6;
+  letter-spacing: 1px;
+  margin-bottom: 26px;
+}
+
+.info-list {
+  display: flex;
+  justify-content: center;
+  gap: 156px;
+}
+
+.info-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.info-item:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -75px;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: rgba(196, 196, 196, 0.5);
+}
+
+.info-item-weight {
+  color: #15005b;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1;
+  letter-spacing: 0.44px;
+  margin-top: 14px;
+}
+
+.info-item-text {
+  color: #15005b;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.42px;
+  margin-top: -16px;
+}
