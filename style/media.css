@@ -1,0 +1,188 @@
+@media screen and (min-width: 428px) {
+  .container {
+    max-width: 420px;
+  }
+}
+
+@media screen and (min-width: 1240px) {
+  .container {
+    max-width: 1272px;
+  }
+
+  .header-text {
+    display: block;
+    color: #565656;
+    text-align: center;
+    font-family: "Suisse Int'l";
+    font-size: 11px;
+    line-height: 3.2;
+    letter-spacing: 0.88px;
+  }
+
+  .header-mob-text {
+    display: none;
+  }
+
+  .hero {
+    padding: 32px 0 62px 0;
+  }
+
+  .hero-logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 62px;
+  }
+
+  .hero-title {
+    color: #01005b;
+    text-align: justify;
+    font-size: 38px;
+    line-height: 1.2;
+    letter-spacing: 1.52px;
+    margin-bottom: 32px;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .hero-list {
+    gap: 23px;
+  }
+
+  .item-text {
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.45px;
+  }
+
+  .hero-btn {
+    margin-top: 40px;
+  }
+
+  .hero-img img {
+    width: 791px;
+  }
+
+  .benefits {
+    padding: 78px 54px;
+  }
+
+  .benefits-text {
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.6px;
+  }
+
+  .benefits-img-top {
+    display: none;
+  }
+
+  .benefits-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .benefits-title {
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: 1.28px;
+    margin-top: 114px;
+    text-align: start;
+  }
+
+  .wrap-content {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 100px;
+  }
+
+  .wrap-list {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 84px;
+  }
+
+  .wrap-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+  }
+
+  .wrap-title {
+    font-size: 22px;
+    line-height: 1.1;
+    text-align: start;
+  }
+
+  .wrap-sub-title {
+    font-size: 15px;
+    line-height: 1.5;
+    letter-spacing: 0.45px;
+    text-align: start;
+  }
+
+  .btn-wrap-mob {
+    display: none;
+  }
+
+  .about {
+    padding: 83px 0 56px 0;
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 104px;
+  }
+
+	.about-container img {
+  width: 524px;
+}
+
+  .about-title {
+    color: #2a2996;
+    font-size: 32px;
+    line-height: 1.25;
+    letter-spacing: 1.28px;
+    margin-bottom: 32px;
+  }
+
+  .about-title-mob {
+    display: none;
+  }
+
+  .about-text {
+    color: #6c6c6c;
+    line-height: 1.5;
+    letter-spacing: 0.45px;
+    margin-bottom: 30px;
+    max-width: 620px;
+    height: 440px;
+  }
+
+  .about-btn {
+    display: block;
+    color: #fff;
+    text-align: center;
+    font-family: "Suisse Int'l";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.54px;
+    border-radius: 5px;
+    background-color: #01005b;
+    border: none;
+    padding: 16px 99px 22px 66px;
+    cursor: pointer;
+    max-width: 356px;
+  }
+}
