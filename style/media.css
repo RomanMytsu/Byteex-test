@@ -273,7 +273,7 @@
   .faq-wrap {
     display: flex;
     justify-content: space-between;
-		flex-direction: row;
+    flex-direction: row;
   }
 
   .faq-wrap img {
@@ -295,16 +295,41 @@
     margin-bottom: 52px;
   }
 
-	hr {
-  width: 630px;
-}
+  hr {
+    width: 630px;
+  }
 
   summary {
     justify-content: space-between;
   }
 
-	details p {
-  line-height: 1.4;
-  letter-spacing: 0.45px;
+  details p {
+    line-height: 1.4;
+    letter-spacing: 0.45px;
+  }
+
+  .info {
+    padding: 52px 0 74px 0;
+  }
+
+  .info-title {
+    margin-bottom: 26px;
+  }
+
+  .info-list {
+    display: flex;
+    justify-content: center;
+		flex-direction: row;
+    gap: 156px;
+  }
+
+  .info-item:not(:last-child)::after {
+    right: -75px;
+    top: 0;
+    transform: rotate(0deg);
+  }
+
+	.info-item:last-child {
+  display: flex;
 }
 }
