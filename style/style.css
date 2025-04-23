@@ -351,7 +351,7 @@
 }
 
 .reviews-list {
- display: none;
+  display: none;
 }
 
 .reviews-comments {
@@ -397,12 +397,18 @@
 }
 
 .faq {
-  padding: 75px 0;
+  padding: 68px 0 52px 0;
 }
 
 .faq-wrap {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.faq-wrap img {
+  display: none;
 }
 
 .faq-left {
@@ -414,14 +420,15 @@
 
 .faq-title {
   color: #01005b;
-  font-size: 32px;
-  line-height: 1.2;
-  letter-spacing: 1.28px;
-  margin-bottom: 52px;
+  text-align: center;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 1.04px;
+  margin-bottom: 26px;
 }
 
 hr {
-  width: 630px;
+  width: 350px;
   border: 1px solid #eaeaea;
 }
 
@@ -435,7 +442,7 @@ details {
 summary {
   position: relative;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 40px;
   align-items: center;
   color: #01005b;
@@ -446,8 +453,9 @@ summary {
 }
 
 details p {
+  font-size: 14px;
   line-height: 1.4;
-  letter-spacing: 0.45px;
+  letter-spacing: 0.42px;
 }
 
 summary:after {
