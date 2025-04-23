@@ -143,9 +143,9 @@
     gap: 104px;
   }
 
-	.about-container img {
-  width: 524px;
-}
+  .about-container img {
+    width: 524px;
+  }
 
   .about-title {
     color: #2a2996;
@@ -184,5 +184,34 @@
     padding: 16px 99px 22px 66px;
     cursor: pointer;
     max-width: 356px;
+  }
+
+  .describe {
+    padding: 75px 0;
+  }
+
+  .describe-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .describe-title {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 1.28px;
+    margin-bottom: 46px;
+  }
+
+  .describe-list {
+    display: flex;
+		flex-direction: row;
+    gap: 42px;
+  }
+
+  .describe-item {
+    width: calc((100% - 42px * 2) / 3);
   }
 }
