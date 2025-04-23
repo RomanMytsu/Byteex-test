@@ -538,7 +538,7 @@ details[open] > summary:after {
 }
 
 .final {
-  padding: 84px 0;
+  padding: 52px 0 102px 0;
 }
 
 .final-container {
@@ -548,20 +548,29 @@ details[open] > summary:after {
   text-align: center;
 }
 
+
 .final-title {
   color: #01005b;
   text-align: center;
-  font-size: 32px;
-  line-height: 1.2;
-  letter-spacing: 1.28px;
-  margin-bottom: 26px;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 1.04px;
+  margin-bottom: 22px;
+}
+
+.final-text-mob {
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 0.45px;
+  margin-bottom: 30px;
 }
 
 .final-text {
-  text-align: center;
-  line-height: 1.4; /* 146.667% */
-  letter-spacing: 0.45px;
-  max-width: 587px;
+  display: none;
+}
+
+.final-image {
+  width: 464px;
   margin-bottom: 52px;
 }
 
@@ -573,10 +582,7 @@ details[open] > summary:after {
 }
 
 .final-list {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  gap: 30px;
+ display: none;
 }
 
 .final-item {

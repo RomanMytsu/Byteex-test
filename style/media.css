@@ -332,4 +332,39 @@
 	.info-item:last-child {
   display: flex;
 }
+
+
+.final {
+  padding: 84px 0;
+}
+
+.final-title {
+  font-size: 32px;
+  line-height: 1.2;
+  letter-spacing: 1.28px;
+  margin-bottom: 26px;
+}
+
+.final-text-mob {
+	display: none;
+}
+
+.final-text {
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 0.45px;
+  max-width: 587px;
+  margin-bottom: 52px;
+}
+
+.final-image {
+  width: 864px;
+}
+
+.final-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 30px;
+}
 }
