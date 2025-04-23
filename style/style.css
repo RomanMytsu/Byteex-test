@@ -282,7 +282,6 @@
   border: 1px solid #ededed;
   background-color: #f0eeef;
   padding: 77px 36px;
-  
 }
 
 .center {
@@ -318,34 +317,41 @@
 }
 
 .reviews {
-  padding: 75px 0;
+  padding: 60px 0 68px 0;
 }
 
 .reviews-title {
   color: #01005b;
   text-align: center;
-  font-size: 32px;
-  line-height: 1.2;
-  letter-spacing: 1.28px;
-  margin-bottom: 38px;
+  font-size: 26px;
+  line-height: 1.5;
+  letter-spacing: 1.04px;
+  margin-bottom: 32px;
 }
 
 .reviews-text {
   text-align: center;
   line-height: 1.5;
   letter-spacing: 0.45px;
-  max-width: 614px;
-  height: 66px;
+  max-width: 385px;
+  height: 134px;
   margin: 0 auto;
 }
 
-.reviews-list {
+.reviews-list-mob {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
-  gap: 5px 6px;
-  margin-top: 55px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px 4px;
+}
+
+.reviews-item-mob {
+  width: calc((100% - 4px * 3) / 4);
+}
+
+.reviews-list {
+ display: none;
 }
 
 .reviews-comments {
@@ -353,21 +359,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 75px;
+  margin-top: 38px;
 }
 
 .reviews-comments-list {
   display: flex;
-  gap: 42px;
+  flex-direction: column;
+  gap: 18px;
 }
 
 .reviews-comments-item {
-  width: calc((100% - 42px * 2) / 3);
+  width: 300px;
   border-radius: 8px;
   border: 1px solid #eaeaea;
   background: #fff;
   box-shadow: 0px 3px 10px 1px rgba(0, 0, 0, 0.08);
-  padding: 30px 35px;
+  padding: 26px 30px;
 }
 
 .reviews-comments-head {
